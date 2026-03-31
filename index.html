@@ -1,33 +1,323 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Foreign Film Pod</title>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foreign Film Frequency</title>
   <style>
     body {
+      margin: 0;
       font-family: Arial, sans-serif;
-      background-color: #111;
-      color: #fff;
-      text-align: center;
-      padding-top: 100px;
+      background-color: #0d0d0d;
+      color: #f5ecd9;
+      line-height: 1.6;
     }
 
-    h1 {
-      font-size: 48px;
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: min(1100px, 90%);
+      margin: 0 auto;
+    }
+
+    header {
+      border-bottom: 1px solid #2a2a2a;
+      background-color: #111111;
+      position: sticky;
+      top: 0;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 0;
+    }
+
+    .brand {
+      font-size: 1.2rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+      color: #e63946;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav a {
+      color: #f5ecd9;
+      font-size: 0.95rem;
+    }
+
+    .hero {
+      padding: 80px 0 60px;
+      text-align: center;
+      background: linear-gradient(to bottom, #111111, #0d0d0d);
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      color: #f5ecd9;
+    }
+
+    .tagline {
+      font-size: 1.2rem;
+      color: #f1c40f;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      max-width: 750px;
+      margin: 0 auto 30px;
+      font-size: 1.05rem;
+      color: #d7cfbf;
+    }
+
+    .button-group {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 20px;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    .button-primary {
+      background-color: #e63946;
+      color: #ffffff;
+    }
+
+    .button-secondary {
+      background-color: #0f766e;
+      color: #ffffff;
+    }
+
+    .section {
+      padding: 60px 0;
+    }
+
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #f1c40f;
+    }
+
+    .feature-box,
+    .card,
+    .blog-card {
+      background-color: #151515;
+      border: 1px solid #262626;
+      border-radius: 10px;
+      padding: 24px;
+    }
+
+    .feature-box h3,
+    .card h3,
+    .blog-card h3 {
+      margin-top: 0;
+      color: #f5ecd9;
+    }
+
+    .episode-grid,
+    .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    .episode-code {
+      color: #0f766e;
+      font-weight: bold;
+      margin-bottom: 10px;
+      display: inline-block;
+    }
+
+    .country {
+      color: #f1c40f;
+      font-weight: bold;
       margin-bottom: 10px;
     }
 
-    p {
-      font-size: 20px;
-      color: #ccc;
+    footer {
+      border-top: 1px solid #2a2a2a;
+      padding: 30px 0;
+      background-color: #111111;
+      text-align: center;
+      color: #cfc6b5;
+    }
+
+    footer p {
+      margin: 8px 0;
+    }
+
+    @media (max-width: 768px) {
+      .nav {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .hero h1 {
+        font-size: 2.2rem;
+      }
+
+      nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
     }
   </style>
-
 </head>
 <body>
 
-  <h1>🎬 Foreign Film Pod</h1>
-  <p>A podcast exploring the best of international cinema.</p>
+  <header>
+    <div class="container nav">
+      <div class="brand">FOREIGN FILM FREQUENCY</div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Episodes</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Foreign Film Frequency</h1>
+      <p class="tagline">Sit back, relax, and queue the subtitles</p>
+      <p>
+        Tired of Hollywood? Good. Us too. We invite you to join us on our journey
+        around the world through international films.
+      </p>
+      <div class="button-group">
+        <a class="button button-primary" href="https://linktr.ee/foreignfilmpod" target="_blank">Listen Now</a>
+        <a class="button button-secondary" href="https://www.instagram.com/foreignfilmpod/" target="_blank">Instagram</a>
+        <a class="button button-secondary" href="mailto:foreignfilmfrequency@gmail.com">Contact</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>Featured Episode</h2>
+      <div class="feature-box">
+        <span class="episode-code">E004</span>
+        <h3>Kontroll</h3>
+        <p class="country">Hungary</p>
+        <p>
+          Kontroll takes us for a ride into the purgatory of the Budapest metro.
+          The film follows a crew of ragged subway ticket inspectors through their
+          days and nights. Led by Bulcsú, they deal with murders, anxiety,
+          bureaucracy, villains, angels, shame, and redemption as writer-director
+          Nimród Antal expertly sets the lighting, angles, and tone.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>Episode Highlights</h2>
+      <div class="episode-grid">
+        <div class="card">
+          <span class="episode-code">E001</span>
+          <h3>Man Bites Dog</h3>
+          <p class="country">Belgium</p>
+          <p>
+            A 1992 cult classic. This black comedy mockumentary follows a serial
+            killer through the lens of a novice documentary crew. Their perceived
+            success becomes intertwined, and the film delivers a scathing critique
+            of media fascination with violence.
+          </p>
+        </div>
+
+        <div class="card">
+          <span class="episode-code">E004</span>
+          <h3>Kontroll</h3>
+          <p class="country">Hungary</p>
+          <p>
+            A visually striking descent into the Budapest metro, where ticket
+            inspectors navigate bureaucracy, dread, and redemption in a world that
+            feels like purgatory.
+          </p>
+        </div>
+
+        <div class="card">
+          <span class="episode-code">E005</span>
+          <h3>Christiane F.</h3>
+          <p class="country">Germany</p>
+          <p>
+            A 1981 biographical drama directed by Uli Edel and written by Herman
+            Weigel. Featuring the music of David Bowie, the film's grim realism and
+            cult status have kept it resonant for decades.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>From the Blog</h2>
+      <div class="blog-grid">
+        <div class="blog-card">
+          <h3>Why International Cinema Still Feels More Surprising</h3>
+          <p>
+            Placeholder post. This piece will explore why films outside the usual
+            Hollywood machine often feel riskier, stranger, and more alive.
+          </p>
+        </div>
+
+        <div class="blog-card">
+          <h3>Afterthoughts on Kontroll</h3>
+          <p>
+            Placeholder post. A reflection on atmosphere, alienation, and why the
+            Budapest metro in Kontroll feels like one of the great cinematic limbos.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>About the Podcast</h2>
+      <div class="feature-box">
+        <p>
+          Foreign Film Frequency is an international film podcast for people who
+          want to look beyond the usual canon. We watch, discuss, and reflect on
+          films from across the globe, with a love for cult classics, hidden gems,
+          and singular cinematic worlds.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p><strong>Foreign Film Frequency</strong></p>
+      <p>Email: <a href="mailto:foreignfilmfrequency@gmail.com">foreignfilmfrequency@gmail.com</a></p>
+      <p>Instagram: <a href="https://www.instagram.com/foreignfilmpod/" target="_blank">@foreignfilmpod</a></p>
+      <p>Listen: <a href="https://linktr.ee/foreignfilmpod" target="_blank">Linktree</a></p>
+    </div>
+  </footer>
 
 </body>
 </html>
