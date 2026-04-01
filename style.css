@@ -132,6 +132,12 @@ nav a {
   gap: 20px;
 }
 
+.poster {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
 .episode-code {
   color: #0f766e;
   font-weight: bold;
