@@ -138,6 +138,13 @@ nav a {
   margin-bottom: 15px;
 }
 
+.poster-detail {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
 .episode-code {
   color: #0f766e;
   font-weight: bold;
