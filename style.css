@@ -80,12 +80,10 @@ header {
 /* logo on the left */
 
 .nav-logo {
-  width: 42px;
+  width: 40px;
+  max-width: 40px;
   height: auto;
-  margin-bottom: 20px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 .brand {
   font-size: 1.1rem;
