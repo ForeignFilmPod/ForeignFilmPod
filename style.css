@@ -240,6 +240,14 @@ p {
 .feature-box p {
   line-height: 1.7;
 }
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.card p:last-child {
+  margin-top: auto;
+}
 /* Grids */
 
 .episode-grid,
@@ -335,19 +343,20 @@ footer p {
 .ratings {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  margin-bottom: 14px;
+  gap: 8px;
+  margin: 10px 0 14px;
 }
-
+}
 .rating {
   display: inline-block;
-  padding: 5px 9px;
+  padding: 4px 8px;
   border-radius: 999px;
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   border: 1px solid var(--color-border);
+}
 }
 
 .rating-imdb {
@@ -365,4 +374,5 @@ footer p {
   color: #ffffff;
   background-color: var(--color-primary);
   border-color: var(--color-primary);
+  box-shadow: 0 0 0 1px rgba(230, 57, 70, 0.3);
 }
