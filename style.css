@@ -124,7 +124,7 @@ img {
 
 .hero-logo {
   width: 90px;
-  height: auto;
+  border: 5px solid red;
 }
 }
 .hero h1 {
