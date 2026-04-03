@@ -119,8 +119,8 @@ nav a.active {
   background: linear-gradient(to bottom, #111111, var(--color-bg));
 }
 .hero-logo {
-  width: 90px;
-  height: auto;
+  width: 40px;
+  height: 40;
   margin-bottom: 20px;
   display: block;
   margin-left: auto;
