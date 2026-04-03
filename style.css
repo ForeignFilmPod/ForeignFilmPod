@@ -75,32 +75,37 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 18px 0;
+  padding: 20px 0;
 }
 
 .brand {
-  color: var(--color-primary);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bold;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
+  color: var(--color-primary);
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  gap: 20px;
-  padding: 0;
+  gap: 28px;
   margin: 0;
+  padding: 0;
 }
 
 nav a {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
   color: var(--color-text);
   opacity: 0.85;
+  transition: all 0.2s ease;
 }
 
 nav a:hover {
   color: var(--color-secondary);
   opacity: 1;
+}
 }
 
 /* Hero */
