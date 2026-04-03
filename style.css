@@ -121,10 +121,13 @@ nav a.active {
 img {
   width: 100%;
 }
-
 .hero-logo {
   width: 90px;
-  border: 5px solid red;
+  height: auto;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero h1 {
   line-height: 0.95;
