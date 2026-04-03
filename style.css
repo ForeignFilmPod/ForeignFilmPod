@@ -78,12 +78,11 @@ header {
   padding: 18px 0;
 }
 /* logo on the left */
-}
 img {
   width: 100%;
 }
 .hero-logo {
-  width: 90px;
+  width: 42px;
   height: auto;
   margin-bottom: 20px;
   display: block;
