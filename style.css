@@ -106,6 +106,9 @@ nav a:hover {
   color: var(--color-secondary);
   opacity: 1;
 }
+nav a.active {
+  color: var(--color-secondary);
+  opacity: 1;
 }
 
 /* Hero */
