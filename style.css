@@ -76,10 +76,13 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 18px 0;
-}
 .nav-logo {
-  width: 50px;
+  width: 56px;
   height: auto;
+  display: block;
+  flex-shrink: 0;
+  border: 2px solid var(--color-secondary);
+  border-radius: 8px;
 }
 nav ul {
   list-style: none;
