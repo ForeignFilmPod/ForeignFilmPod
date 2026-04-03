@@ -75,9 +75,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: 18px 0;
 }
-
+/* logo on the left */
+.nav-logo {
+  width: 50px;
+  height: auto;
+}
 .brand {
   font-size: 1.1rem;
   font-weight: bold;
