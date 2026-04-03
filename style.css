@@ -171,11 +171,16 @@ nav a:hover {
 /* Sections */
 
 .section {
-  padding: 60px 0;
+  padding: 90px 0;
 }
 
 .section h2 {
   color: var(--color-secondary);
+  font-size: 2rem;
+  letter-spacing: -0.02em;
+  margin-bottom: 28px;
+}
+
 }
 
 /* Text */
@@ -186,22 +191,32 @@ p {
 
 /* Cards */
 
+}
+
 .feature-box,
 .card,
 .blog-card {
   background-color: var(--color-surface);
   border: 1px solid var(--color-border);
-  padding: 20px;
-  border-radius: 12px;
+  padding: 24px;
+  border-radius: 16px;
 }
 
-.feature-box h3,
-.card h3,
-.blog-card h3 {
-  margin-top: 0;
-  color: var(--color-text);
+.card,
+.blog-card {
+  transition: transform 0.2s ease, border-color 0.2s ease;
 }
 
+.card:hover,
+.blog-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(241, 196, 15, 0.35);
+}
+.card p,
+.blog-card p,
+.feature-box p {
+  line-height: 1.7;
+}
 /* Grids */
 
 .episode-grid,
@@ -213,17 +228,41 @@ p {
 
 /* Images */
 
+.card {
+  overflow: hidden;
+}
+
 .poster {
   width: 100%;
   border-radius: 10px;
   margin-bottom: 15px;
+  transition: transform 0.3s ease;
 }
 
-.poster-detail {
-  width: 100%;
-  max-width: 500px;
-  border-radius: 10px;
-  margin-bottom: 20px;
+.card:hover .poster {
+  transform: scale(1.04);
+}
+.episode-code {
+  color: var(--color-accent);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+.card p {
+  font-size: 0.9rem;
+  color: var(--color-muted);
+}
+.country {
+  font-size: 0.8rem;
+  opacity: 0.8;
+  margin-bottom: 12px;
 }
 
 /* Metadata */
