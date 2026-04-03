@@ -79,25 +79,28 @@ header {
 }
 /* logo on the left */
 
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
 .nav-logo {
   width: 40px;
   max-width: 40px;
   height: auto;
   display: block;
-}
-.brand {
-  font-size: 1.1rem;
-  font-weight: bold;
-  letter-spacing: 1.5px;
-  color: var(--color-primary);
+  flex-shrink: 0;
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  gap: 28px;
+  gap: 24px;
   margin: 0;
   padding: 0;
+  align-items: center;
 }
 
 nav a {
