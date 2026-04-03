@@ -17,8 +17,34 @@ body {
   background-color: var(--color-bg);
   color: var(--color-text);
   font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+}
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  line-height: 1.1;
+  margin-top: 0;
 }
 
+h1 {
+  font-size: clamp(3rem, 8vw, 5.5rem);
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.15rem;
+}
+
+p {
+  color: var(--color-muted);
+  font-size: 1rem;
+  line-height: 1.7;
+}
 a {
   color: var(--color-text);
   text-decoration: none;
@@ -86,7 +112,6 @@ nav a:hover {
 }
 
 .hero h1 {
-  font-size: clamp(3rem, 8vw, 5.5rem);
   line-height: 0.95;
   letter-spacing: -0.03em;
   margin-bottom: 16px;
@@ -176,11 +201,9 @@ nav a:hover {
 
 .section h2 {
   color: var(--color-secondary);
-  font-size: 2rem;
   letter-spacing: -0.02em;
   margin-bottom: 28px;
 }
-
 }
 
 /* Text */
@@ -250,10 +273,9 @@ p {
   margin-bottom: 6px;
   display: block;
 }
-
 .card h3 {
-  font-size: 1.1rem;
   margin-bottom: 8px;
+}
 }
 .card p {
   font-size: 0.9rem;
