@@ -332,3 +332,37 @@ footer p {
     justify-content: center;
   }
 }
+.ratings {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.rating {
+  display: inline-block;
+  padding: 5px 9px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border: 1px solid var(--color-border);
+}
+
+.rating-imdb {
+  color: var(--color-text);
+  background-color: rgba(244, 234, 213, 0.04);
+}
+
+.rating-rt {
+  color: var(--color-secondary);
+  background-color: rgba(241, 196, 15, 0.08);
+  border-color: rgba(241, 196, 15, 0.22);
+}
+
+.rating-fff {
+  color: #ffffff;
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
