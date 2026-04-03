@@ -248,6 +248,20 @@ p {
 .card p:last-child {
   margin-top: auto;
 }
+.card-link {
+  display: block;
+  color: inherit;
+}
+
+.card-link:hover {
+  color: inherit;
+}
+
+.card {
+  overflow: hidden;
+  position: relative;
+}
+
 /* Grids */
 
 .episode-grid,
@@ -267,11 +281,12 @@ p {
   width: 100%;
   border-radius: 10px;
   margin-bottom: 15px;
-  transition: transform 0.3s ease;
+  transition: transform 0.35s ease, opacity 0.35s ease;
 }
-
+}
 .card:hover .poster {
   transform: scale(1.04);
+  opacity: 0.92;
 }
 .episode-code {
   color: var(--color-accent);
