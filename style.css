@@ -122,9 +122,9 @@ nav a.active {
   line-height: 0.95;
   letter-spacing: -0.03em;
   margin: 0 0 18px;
-  align-items: center;
   color: var(--color-text);
   text-transform: uppercase;
+   align-items: center;
 }
 
 .tagline {
@@ -133,6 +133,7 @@ nav a.active {
   margin: 0 0 26px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
+   align-items: center;
 }
 
 .button-group {
