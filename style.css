@@ -112,38 +112,33 @@ nav a.active {
 
 .hero {
   padding: 72px 0 56px;
-  text-align: left;
-  align-items: center;
+  text-align: center
   background: linear-gradient(to bottom, #111111, var(--color-bg));
 }
-
 .hero h1 {
   font-size: clamp(3rem, 7vw, 5.2rem);
-  line-height: 0.95;
+  line-height: 1;
   letter-spacing: -0.03em;
-  margin: 0 0 18px;
+  margin: 0 0 20px;
   color: var(--color-text);
   text-transform: uppercase;
 }
-
 .tagline {
   font-size: 1rem;
   color: var(--color-secondary);
-  margin: 0 0 26px;
+  margin-bottom: 30px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
-
 .button-group {
   display: flex;
+  justify-content: center;
   gap: 12px;
   flex-wrap: wrap;
 }
-
 .button {
   display: inline-block;
   padding: 12px 18px;
-  align-items: center;
   border-radius: 999px;
   font-size: 0.8rem;
   font-weight: 700;
