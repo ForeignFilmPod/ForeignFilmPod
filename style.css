@@ -112,7 +112,8 @@ nav a.active {
 
 .hero {
   padding: 72px 0 56px;
-  text-align: center;
+  text-align: left;
+  align-items: center;
   background: linear-gradient(to bottom, #111111, var(--color-bg));
 }
 
