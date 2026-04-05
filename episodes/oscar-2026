@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontroll | Foreign Film Frequency</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container nav">
+      <div class="brand">FOREIGN FILM FREQUENCY</div>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../episodes.html" class="active">Episodes</a></li>
+          <li><a href="../blog.html">Blog</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+<img src="../assets/oscar.png" alt="Oscar 2026 poster" class="poster-detail" />
+<span class="episode-code">E006</span>
+      <h3>Oscar 2026 Special</h3>
+      </div>
+      <p>
+      In this special episode Nicolai is joined by his wife, Linda, to discuss the nominees for the Academy Award for Best International Feature Film
+      </p>
+      
+      <h2>Listen</h2>
+      <p>
+        <a href="https://linktr.ee/foreignfilmpod" target="_blank">Listen via Linktree</a>
+      </p>
+
+      <h2>Notes</h2>
+      <p>
+        INSERT LONG REAAD
+      </p>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p><strong>Foreign Film Frequency</strong></p>
+      <p>Email: <a href="mailto:foreignfilmfrequency@gmail.com">foreignfilmfrequency@gmail.com</a></p>
+      <p>Instagram: <a href="https://www.instagram.com/foreignfilmpod/" target="_blank">@foreignfilmpod</a></p>
+      <p>Listen: <a href="https://linktr.ee/foreignfilmpod" target="_blank">Linktree</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
