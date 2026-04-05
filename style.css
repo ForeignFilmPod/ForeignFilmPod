@@ -217,9 +217,8 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-}
-.card p:last-child {
-  margin-top: auto;
+  overflow: hidden;
+  position: relative;
 }
 .card-link {
   display: block;
@@ -237,8 +236,7 @@ p {
 
 /* Grids */
 
-.episode-grid,
-.blog-grid {
+.episode-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 20px;
