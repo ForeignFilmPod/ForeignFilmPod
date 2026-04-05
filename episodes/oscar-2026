@@ -25,26 +25,31 @@
 
   <section class="section">
     <div class="container">
-<img src="../assets/oscar.png" alt="Oscar 2026 poster" class="poster-detail" />
-<span class="episode-code">E006</span>
+      <img src="../assets/oscar.png" alt="Oscar 2026 poster" class="poster-detail" />
+      <span class="episode-code">E006</span>
       <h3>Oscar 2026 Special</h3>
-      </div>
-      <p>
-      In this special episode Nicolai is joined by his wife, Linda, to discuss the nominees for the Academy Award for Best International Feature Film
-      </p>
-      
-      <h2>Listen</h2>
-      <p>
-        <a href="https://linktr.ee/foreignfilmpod" target="_blank">Listen via Linktree</a>
-      </p>
-
-      <h2>Notes</h2>
-      <p>
-        INSERT LONG REAAD
-      </p>
-
+      <p class="country">International</p>
+    <div class="ratings">
+      <span class="rating rating-imdb">IMDb: 5.3</span>
+      <span class="rating rating-rt">RT: Unrated</span>
+      <span class="rating rating-fff">FFF: 3</span>
     </div>
-  </section>
+    <p>
+    In this special episode Nicolai is joined by his wife, Linda, to discuss the nominees for the Academy Award for Best International Feature Film
+    </p>
+    
+    <h2>Listen</h2>
+    <p>
+    <a href="https://linktr.ee/foreignfilmpod" target="_blank">Listen via Linktree</a>
+    </p>
+
+    <h2>Notes</h2>
+    <p>
+      INSERT LONG REAAD
+    </p>
+
+  </div>
+</section>
 
   <footer>
     <div class="container">
