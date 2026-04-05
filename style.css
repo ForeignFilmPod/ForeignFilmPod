@@ -358,3 +358,22 @@ footer p {
   border-color: var(--color-primary);
   box-shadow: 0 0 0 1px rgba(230, 57, 70, 0.3);
 }
+
+/* Articles */
+.article-page {
+  max-width: 760px;
+}
+
+.article-page h1 {
+  margin-bottom: 18px;
+}
+
+.article-intro {
+  font-size: 1.1rem;
+  color: var(--color-secondary);
+  margin-bottom: 24px;
+}
+
+.article-body p {
+  margin-bottom: 18px;
+}
